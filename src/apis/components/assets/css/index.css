@@ -1,0 +1,30 @@
+@import url('./css-reset.css');
+@import url('./input-button.css');
+@import url('./table.css');
+@import url('./search.css');
+@import url('./top-employee.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    
+}
+
+div.error {
+    color: red;
+    font-size: 25px;
+
+}
+
+button.error {
+    display: block;
+    margin: 20px auto
+}
+
+
+
+
+

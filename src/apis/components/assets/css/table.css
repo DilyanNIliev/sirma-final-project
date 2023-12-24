@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    margin: 20px auto;
+    border: 2px solid #a1abce;
+    box-sizing: border-box;
+  }
+
+table thead {
+    background-color: #b8b8b8;
+    border: 2px solid #a1abce;
+    width: 100%;
+}
+
+table thead th {
+    padding: 5px;
+    font-size: 20px;
+}
+
+table tr, 
+table tr td {
+    border: 1px solid #a1abce;
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: #d4d4d4;
+}
+
+table tbody tr:hover {
+    background-color: #ddd;
+}
+
+table select {
+    width: 80px;
+    padding: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+table tbody .empty-td {
+    background-color: rgba(255, 0, 0, 0.5);
+    text-indent: -100%;
+    font-size: 0;
+    line-height: 0;
+}

@@ -1,0 +1,11 @@
+.topEmployee h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.topEmployee ul li {
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
